@@ -1,0 +1,18 @@
+{
+  "Jobs": {
+    "Leidos": {
+      "Jr Software Engineer": {
+        "start date": "1/2023",
+        "end date": "current",
+        "details": ["1", "2", "3"]
+      }
+    },
+    "Disney": {
+      "DCP": {
+        "start date": "1/2020",
+        "end date": "3/2020",
+        "details": ["1", "2", "3"]
+      }
+    }
+  }
+}
