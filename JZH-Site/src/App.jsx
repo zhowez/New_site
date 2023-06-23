@@ -5,6 +5,9 @@ import orange_slice from "./assets/orange_slice.svg";
 import style from "./App.module.css";
 import HeaderBox from "./components/UI/HeaderBox";
 import ContentBox from "./components/UI/ContentBox";
+import JobBox from "./components/UI/JobBox";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function App() {
   //const [count, setCount] = useState(0);
@@ -14,30 +17,38 @@ function App() {
       <HeaderBox className={style.header}>
         <ul className={style.refs}>
           <li>
-            <button onClick={() => {}}> Test1</button>
+            <button onClick={() => {}}> About</button>
           </li>
           <li>
-            <button onClick={() => {}}> Test1</button>
+            <button onClick={() => {}}> Jobs</button>
           </li>
           <li>
-            <button onClick={() => {}}> Test1</button>
+            <button onClick={() => {}}> Projects</button>
           </li>
         </ul>
         <div className={style.logo}>
           <img src={orange_slice} />
         </div>
 
-        <ul className={style.links}>
-          <li>A</li>
-          <li>B</li>
-          <li>C</li>
-        </ul>
+        <div className={style.links}>
+          <a href="https://github.com/zhowez">
+            <GitHubIcon
+              className="material-icons"
+              style={{ fontSize: "50px" }}
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/jameszhowes/">
+            <LinkedInIcon
+              className="material-icons"
+              style={{ fontSize: "50px" }}
+            />
+          </a>
+        </div>
       </HeaderBox>
 
-      <ContentBox>
-        <img src={orange} alt="" />
-        <img src={pineapple} alt="" />
-      </ContentBox>
+      <div>
+        <JobBox />
+      </div>
     </div>
   );
 }

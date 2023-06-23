@@ -1,18 +1,36 @@
-{
-  "Jobs": {
-    "Leidos": {
-      "Jr Software Engineer": {
-        "start date": "1/2023",
-        "end date": "current",
-        "details": ["1", "2", "3"]
-      }
-    },
-    "Disney": {
-      "DCP": {
-        "start date": "1/2020",
-        "end date": "3/2020",
-        "details": ["1", "2", "3"]
-      }
-    }
+[
+  {
+    "id": 1,
+    "company": "Leidos",
+    "title": "Jr Software Engineer",
+    "startDate": "1/2023",
+    "endDate": "current",
+    "details": [
+      "Troubleshot and resolved Java code issues in the radio system used by students and instructors, reducing audio delay from 5-7 seconds to less than 1 second. This enhancement enabled real-time communication, significantly improving the effectiveness of the training experience.",
+      "Enhanced the behavior of the Windows Desktop application for the instructor station using C# and the .NET framework. The improvements resulted in a seamless viewing experience for instructors, providing a more realistic perspective of the simulation environment from the driver's point of view.",
+      "Updated training scenario files to ensure proper placement of obstacles on the ground, creating a highly immersive and dynamic simulation environment.",
+      "Identified and resolved issues with vehicle speed data from MATLAB, ensuring an accurate representation of vehicle speed across all scenarios.",
+      "Developed PowerShell scripts to validate software installations by generating checksums and comparing the results with the expected values.",
+      "Assisted in training the site maintenance team in software installation, troubleshooting, and hardware repair.",
+      "Updated site maintenance documentation as required by the on-site team and customers, ensuring up-to-date and comprehensive information for system maintenance.",
+      "Traveled to customer locations to deploy, install, and troubleshoot the latest software version, addressing hardware and configuration issues as necessary.",
+      "Designed, implemented, and tested a data driven feature using object-oriented design principles, enabling instructors and scenario creators to customize the training course difficulty by controlling the pitch and roll limits of the virtual vehicle.",
+      "Created detailed Markdown documentation for easy activation and file creation instructions related to the pitch and roll feature.",
+      "Actively participated in team scrum meetings, sprint planning, and sprint retrospectives, fostering collaboration and ensuring smooth project execution.",
+      "Collaborated on the development of software that enabled the simulator to seamlessly utilize game engines such as MAK, Unity, or Unreal, enhancing the adaptability of the product."
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Disney",
+    "title": "Disney College Program Intern",
+    "startDate": "1/2020",
+    "endDate": "3/2020",
+    "details": [
+      "Received a Cast Compliment from a guest for outstanding service, reflecting a commitment to going above and beyond.",
+      "Performed multiple tasks and assumed different store positions each shift, demonstrating adaptability and flexibility.",
+      "Assisted hundreds of guests on a daily basis, providing product information and answering questions about the WDW property with excellent communication and interpersonal skills.",
+      "Created unforgettable magic moments for guests by ensuring a positive and memorable experience."
+    ]
   }
-}
+]
