@@ -1,1 +1,8 @@
-{}
+{
+    "about" : {
+        "header1": "Header 1",
+        "description1": "Some words and phrases",
+        "header2": "Header 21",
+        "description2": "Some words and phrases"
+    }
+}
